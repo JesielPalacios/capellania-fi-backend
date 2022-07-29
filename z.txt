@@ -1,0 +1,93 @@
+'Académico - Universitario',
+'Problemas y/o conflictos familiares',
+'Auxilio matricula',
+'Auxilio manutención',
+'Auxilio plan de trabajo',
+'Bautismo por primera vez en la IASD',
+'Bautismo por segunda vez en la IASD',
+'Toma de profesión de posesión en la IASD',
+'Toma de estudios bíblicos para bautismo en la IASD',
+'Deserción de la IASD',
+'Salud',
+'Deportes',
+'Clubes adventistas',
+'Especiales de cantos, músicas, conciertos',
+'Ministerios Adventistas',
+'Violación',
+
+
+Académico_-_Universitario
+Problemas_y/o_conflictos_familiares
+Auxilio_matricula
+Auxilio_manutención
+Auxilio_plan_de_trabajo
+Bautismo_por_primera_vez_en_la_IASD
+Bautismo_por_segunda_vez_en_la_IASD
+Toma_de_profesión_de_posesión_en_la_IASD
+Toma_de_estudios_bíblicos_para_bautismo_en_la_IASD
+Deserción_de_la_IASD
+Salud
+Deportes
+Clubes_adventistas
+Especiales_de_cantos_músicas_conciertos
+Ministerios_Adventistas
+Violación
+
+'Academico_-_Universitario',
+'Problemas_y/o_conflictos_familiares',
+'Auxilio_matricula',
+'Auxilio_manutencion',
+'Auxilio_plan_de_trabajo',
+'Bautismo_por_primera_vez_en_la_IASD',
+'Bautismo_por_segunda_vez_en_la_IASD',
+'Toma_de_profesion_de_posesion_en_la_IASD',
+'Toma_de_estudios_biblicos_para_bautismo_en_la_IASD',
+'Desercion_de_la_IASD',
+'Salud',
+'Deportes',
+'Clubes_adventistas',
+'Especiales_de_cantos_musicas_conciertos',
+'Ministerios_Adventistas',
+'Violacion',
+
+    Academico_Universitario
+    Problemas_y_o_conflictos_familiares
+    Auxilio_matricula
+    Auxilio_manutencion
+    Auxilio_plan_de_trabajo
+    Bautismo_por_primera_vez_en_la_IASD
+    Bautismo_por_segunda_vez_en_la_IASD
+    Toma_de_profesion_de_posesion_en_la_IASD
+    Toma_de_estudios_biblicos_para_bautismo_en_la_IASD
+    Desercion_de_la_IASD
+    Salud
+    Deportes
+    Clubes_adventistas
+    Especiales_de_cantos_musicas_conciertos
+    Ministerios_Adventistas
+    Violacion
+
+
+'No necesita remisión',
+'Centro de Psicología',
+'Centro de Pediatría',
+'Respectivo decano de la facultad',
+'Pastor',
+
+
+No_necesita_remisión
+Centro_de_Psicología
+Centro_de_Pediatría
+Respectivo_decano_de_la_facultad
+Pastor
+
+'No_necesita_remision',
+'Centro_de_Psicologia',
+'Centro_de_Pediatria',
+'Respectivo_decano_de_la_facultad',
+'Pastor',
+
+
+{
+  "authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvcnJlbzJAY29ycmVvLmNvbSIsImlkIjoiNjJlMzZiYzVlOTNkOWI1OGYyMzcxNWNhIiwiaWF0IjoxNjU5MDc3NDQ1fQ.Mvh0Rv9iOIKN4rGVnzeaSCuLImGzrZOMgYNNVKDKaYU"
+}

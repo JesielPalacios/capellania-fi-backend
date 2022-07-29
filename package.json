@@ -1,0 +1,26 @@
+{
+  "name": "capellania_unac_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "star1": "nodemon src/index.js",
+    "start": "nodemon --experimental-specifier-resolution=node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.0",
+    "apollo-server-core": "^3.10.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "nodemon": "^2.0.19",
+    "uuid": "^8.3.2"
+  }
+}
