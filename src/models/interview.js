@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
-import mongooseUniqueValidator from 'mongoose-unique-validator'
 
-const User = new mongoose.Schema(
+const Interview = new mongoose.Schema(
   {
     idInterview: {
       type: String,
@@ -58,41 +57,38 @@ const User = new mongoose.Schema(
     //   type: mongoose.Schema.Types.ObjectId,
     // },
 
-
-    // userCreate: {
-    //   ref: 'User',
-    //   type: mongoose.Schema.Types.ObjectId,
-    // },
-    // userUpdate: {
-    //   ref: 'User',
-    //   type: mongoose.Schema.Types.ObjectId,
-    // },
-
-
-    patient: {
-      type: String,
-      required: true,
-      trim: true,
-      minLength: 10,
-      maxLength: 10,
-    },
     userCreate: {
-      type: String,
-      required: true,
-      trim: true,
-      minLength: 10,
-      maxLength: 10,
+      ref: 'User',
+      type: mongoose.Schema.Types.ObjectId,
     },
     userUpdate: {
-      type: String,
-      required: true,
-      trim: true,
-      minLength: 10,
-      maxLength: 10,
+      ref: 'User',
+      type: mongoose.Schema.Types.ObjectId,
     },
+
+    // patient: {
+    //   type: String,
+    //   required: true,
+    //   trim: true,
+    //   minLength: 10,
+    //   maxLength: 10,
+    // },
+    // userCreate: {
+    //   type: String,
+    //   required: true,
+    //   trim: true,
+    //   minLength: 10,
+    //   maxLength: 10,
+    // },
+    // userUpdate: {
+    //   type: String,
+    //   required: true,
+    //   trim: true,
+    //   minLength: 10,
+    //   maxLength: 10,
+    // },
   },
   { timestamps: true }
 )
 
-User.plugin(mongooseUniqueValidator)
-export default mongoose.model('user', User)
+export default mongoose.model('Interview', Interview)

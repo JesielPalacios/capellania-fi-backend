@@ -1,7 +1,8 @@
 import { ApolloServer } from 'apollo-server'
 import { ApolloServerPluginLandingPageGraphQLPlayground } from 'apollo-server-core'
 
-import * as jwt from 'jsonwebtoken'
+// import * as jwt from 'jsonwebtoken'
+import jwt from 'jsonwebtoken'
 
 import EnvModule from './config/envModule.js'
 import DBConfig from './config/database.js'
@@ -36,8 +37,13 @@ const server = new ApolloServer({
 })
 
 server.listen().then(({ url }) => {
-  console.log(`🚀  Server ready at port ${url} `)
-})
+// server
+//   .listen({
+//     port: 3001,
+//   })
+  // .then(({ url }) => {
+    console.log(`🚀  Server ready at port ${url} `)
+  })
 
 // https://www.google.com/search?q=ERR_UNSUPPORTED_DIR_IMPORT&oq=ERR_UNSUPPORTED_DIR_IMPORT&aqs=chrome..69i57.287j0j1&sourceid=chrome&ie=UTF-8
 // https://stackoverflow.com/questions/64449464/error-err-unsupported-dir-import-directory-import-when-attempting-to-start-no

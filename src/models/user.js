@@ -53,4 +53,4 @@ const User = new mongoose.Schema(
 )
 
 User.plugin(mongooseUniqueValidator)
-export default mongoose.model('user', User)
+export default mongoose.model('User', User)

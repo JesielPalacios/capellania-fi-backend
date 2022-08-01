@@ -51,8 +51,10 @@ export const typeDefinitions = gql`
     topicDescription: String
     actionsDescription: String
     referralDepartment: ReferralDepartment
-    userCreate: User
-    userUpdate: User
+    # userCreate: User
+    # userUpdate: User
+    userCreate: String
+    userUpdate: String
   }
 
   type Query {
