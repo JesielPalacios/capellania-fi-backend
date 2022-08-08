@@ -1,6 +1,9 @@
 import { gql } from 'apollo-server'
 
 export const typeDefinitions = gql`
+  """
+  La entidad del usuario es aquella que posee roles y accesos en la plataforma.
+  """
   type User {
     _id: ID
     idDocument: ID
@@ -44,6 +47,11 @@ export const typeDefinitions = gql`
     Pastor
   }
 
+  """
+  La entrevista son todos los informes, notas, procesos y remisiones
+  que registran los capellanes y realizan a todos los tipos de
+  beneficiarios, ya sean estudiantes, docentes, miembros de la IASD, etc.
+  """
   type Interview {
     _id: ID
     idInterview: ID

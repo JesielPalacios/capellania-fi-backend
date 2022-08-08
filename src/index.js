@@ -37,13 +37,13 @@ const server = new ApolloServer({
 })
 
 server.listen().then(({ url }) => {
-// server
-//   .listen({
-//     port: 3001,
-//   })
+  // server
+  //   .listen({
+  //     port: 3001,
+  //   })
   // .then(({ url }) => {
-    console.log(`🚀  Server ready at port ${url} `)
-  })
+  console.log(`🚀  Server ready at port ${url} `)
+})
 
 // https://www.google.com/search?q=ERR_UNSUPPORTED_DIR_IMPORT&oq=ERR_UNSUPPORTED_DIR_IMPORT&aqs=chrome..69i57.287j0j1&sourceid=chrome&ie=UTF-8
 // https://stackoverflow.com/questions/64449464/error-err-unsupported-dir-import-directory-import-when-attempting-to-start-no
