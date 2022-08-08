@@ -47,6 +47,8 @@ export const typeDefinitions = gql`
     Pastor
   }
 
+  scalar Date
+
   """
   La entrevista son todos los informes, notas, procesos y remisiones
   que registran los capellanes y realizan a todos los tipos de
@@ -61,7 +63,9 @@ export const typeDefinitions = gql`
     referralDepartment: ReferralDepartment
     # userCreate: User
     # userUpdate: User
-    userCreate: String
+    createdAt: Date
+    updatedAt: Date
+    userCreate: Date
     userUpdate: String
   }
 
