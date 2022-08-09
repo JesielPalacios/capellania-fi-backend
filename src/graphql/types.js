@@ -56,7 +56,7 @@ export const typeDefinitions = gql`
   """
   type Interview {
     _id: ID
-    idInterview: ID
+    idInterview: String
     topic: Topic
     topicDescription: String
     actionsDescription: String
@@ -70,10 +70,10 @@ export const typeDefinitions = gql`
   }
 
   type Query {
-    user: User
+    user(email: String): User
     users: [User]
     usersCount: Int
-    interview: Interview
+    interview(idInterview: String): Interview
     interviews: [Interview]
     interviewsCount: Int
   }

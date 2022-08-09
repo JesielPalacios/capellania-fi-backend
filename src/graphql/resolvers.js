@@ -8,15 +8,10 @@ import config from '../config'
 
 export const resolvers = {
   Query: {
-    // user: (parent, args) => User.findOne({ email: args.email }),
-    user: (parent, args) => {
-      const { email } = args
-      console.log(email)
-      return User.findOne({ email })
-    },
+    user: async (parent, args) => User.findOne({ email: args.email }),
     users: async (root, args) => User.find({}),
     usersCount: () => User.collection.countDocuments(),
-    interview: (parent, args) => Interview.findOne({ idInterview: args.idInterview }),
+    interview: async (parent, args) => Interview.findOne({ idInterview: args.idInterview }),
     interviews: async (root, args) => Interview.find({}),
     interviewsCount: () => Interview.collection.countDocuments(),
   },
